@@ -1,0 +1,28 @@
+{
+  "name": "abraxas-server",
+  "version": "0.1.0",
+  "description": "Abraxas Gearman Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape $(find test -name '*.js')"
+  },
+  "author": "Rebecca Turner <me@re-becca.org> (http://re-becca.org)",
+  "license": "BSD",
+  "keywords": [
+    "gearman",
+    "server"
+  ],
+  "dependencies": {
+    "abraxas": "^0.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iarna/abraxas-server.git"
+  },
+  "devDependencies": {
+    "tape": "^1.0.4"
+  },
+  "directories": {
+    "bin": "bin"
+  }
+}
